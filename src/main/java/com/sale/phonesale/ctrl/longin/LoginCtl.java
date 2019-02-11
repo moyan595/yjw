@@ -11,7 +11,7 @@ public class LoginCtl {
     public String login(ModelMap map){
         map.put("hello","nihao");
         System.out.println("请求链接");
-        return "login/login";
+        return "merchant/login";
     }
 
     @RequestMapping("/logout")
